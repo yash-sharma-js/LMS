@@ -1,0 +1,87 @@
+/* src/components/Books.css */
+.books-container {
+    max-width: 800px;
+    margin: 20px auto;
+    padding: 20px;
+    background-color: #f9f9f9;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  }
+  
+  h2 {
+    text-align: center;
+    color: #773977;
+    margin-bottom: 20px;
+  }
+  
+  .books-list {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+    gap: 15px;
+  }
+  
+  .book-item {
+    background-color: #fff;
+    padding: 15px;
+    border-radius: 8px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    text-align: center;
+    transition: transform 0.3s;
+  }
+  
+  .book-item:hover {
+    transform: scale(1.05);
+  }
+  
+  .book-image {
+    width: 100%;
+    height: auto;
+    border-radius: 4px;
+  }
+  
+
+  /* src/components/Books.css */
+.books-container {
+    padding: 20px;
+    max-width: 800px;
+    margin: auto;
+  }
+  
+  .books-list {
+    list-style: none;
+    padding: 0;
+  }
+  
+  .book-item {
+    display: flex;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    margin-bottom: 15px;
+    padding: 15px;
+    align-items: center;
+  }
+  
+  .book-image {
+    width: 100px;
+    height: auto;
+    margin-right: 15px;
+  }
+  
+  .book-details {
+    flex-grow: 1;
+  }
+  
+  .copy-button {
+    background-color: #007bff;
+    color: white;
+    border: none;
+    padding: 8px 12px;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  
+  .copy-button:hover {
+    background-color: #0056b3;
+  }
+  

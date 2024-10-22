@@ -1,0 +1,99 @@
+/* src/components/RentedBook.css */
+.rented-books-container {
+    max-width: 800px;
+    margin: 20px auto;
+    padding: 20px;
+    background-color: #f9f9f9;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  }
+  
+  h2 {
+    text-align: center;
+    color: #773977;
+    margin-bottom: 20px;
+  }
+  
+  .rented-book-form {
+    margin-bottom: 20px;
+  }
+  
+  .input-group {
+    margin-bottom: 15px;
+  }
+  
+  label {
+    display: block;
+    font-size: 1rem;
+    margin-bottom: 5px;
+    color: #333;
+  }
+  
+  input {
+    width: 100%;
+    padding: 10px;
+    font-size: 1rem;
+    border-radius: 4px;
+    border: 1px solid #ccc;
+    transition: border-color 0.3s;
+  }
+  
+  input:focus {
+    border-color: #773977;
+  }
+  
+  .submit-btn {
+    width: 100%;
+    padding: 12px;
+    background-color: #773977;
+    color: #fff;
+    border: none;
+    border-radius: 4px;
+    font-size: 1.2rem;
+    cursor: pointer;
+    transition: background-color 0.3s;
+  }
+  
+  .submit-btn:hover {
+    background-color: #602d60;
+  }
+  
+  .rented-books-list {
+    list-style: none;
+    padding: 0;
+  }
+  
+  .rented-book-item {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 15px;
+    border-bottom: 1px solid #ccc;
+    margin-bottom: 10px;
+    border-radius: 4px;
+    background-color: #fff;
+    transition: background-color 0.3s;
+  }
+  
+  .rented-book-item:hover {
+    background-color: #f0f0f0;
+  }
+  
+  .book-info {
+    flex-grow: 1;
+  }
+  
+  .delete-btn {
+    padding: 10px 15px;
+    background-color: #d9534f;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+  }
+  
+  .delete-btn:hover {
+    background-color: #c9302c;
+  }
+  

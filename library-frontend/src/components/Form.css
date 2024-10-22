@@ -1,0 +1,57 @@
+/* src/components/Form.css */
+.form-container {
+    max-width: 400px;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: #fff;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    margin-top: 50px;
+  }
+  
+  h2 {
+    text-align: center;
+    margin-bottom: 20px;
+    color: #773977;
+  }
+  
+  .input-group {
+    margin-bottom: 15px;
+  }
+  
+  label {
+    display: block;
+    font-size: 1.1rem;
+    margin-bottom: 5px;
+    color: #333;
+  }
+  
+  input {
+    width: 100%;
+    padding: 10px;
+    font-size: 1rem;
+    border-radius: 4px;
+    border: 1px solid #ccc;
+    transition: border-color 0.3s;
+  }
+  
+  input:focus {
+    border-color: #773977;
+  }
+  
+  .submit-btn {
+    width: 100%;
+    padding: 12px;
+    background-color: #773977;
+    color: #fff;
+    border: none;
+    border-radius: 4px;
+    font-size: 1.2rem;
+    cursor: pointer;
+    transition: background-color 0.3s;
+  }
+  
+  .submit-btn:hover {
+    background-color: #602d60;
+  }
+  

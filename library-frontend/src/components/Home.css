@@ -1,0 +1,53 @@
+/* src/components/Home.css */
+.home-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    min-height: 80vh;
+    text-align: center;
+    background-color: #f0f0f0;
+    padding: 20px;
+  }
+  
+  .home-title {
+    font-size: 3rem;
+    color: #4a4a4a;
+    margin-bottom: 20px;
+  }
+  
+  .home-description {
+    font-size: 1.5rem;
+    color: #666;
+    margin-bottom: 40px;
+  }
+  
+  .button-container {
+    display: flex;
+    gap: 20px;
+  }
+  
+  .home-button {
+    padding: 15px 30px;
+    font-size: 1.2rem;
+    color: #fff;
+    background-color: #773977; /* Your desired color */
+    border-radius: 8px;
+    text-decoration: none;
+    transition: background-color 0.3s ease;
+  }
+  
+  .home-button:hover {
+    background-color: #602d60; /* A darker shade for hover effect */
+  }
+  
+  @media (max-width: 768px) {
+    .button-container {
+      flex-direction: column;
+    }
+  
+    .home-button {
+      margin-bottom: 10px;
+    }
+  }
+  
